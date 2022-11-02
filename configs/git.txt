@@ -1,0 +1,3 @@
+[user]
+	email = m3den0@gmail.com
+	name = Martin Eden

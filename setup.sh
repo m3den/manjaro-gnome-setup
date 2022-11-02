@@ -4,7 +4,7 @@
 sudo pacman -Syu --noconfirm
 
 # Install pacman deps/apps
-sudo pacman -S --noconfirm jq git base-devel yay telegram-desktop caffeine-ng fbreader zsh tig
+sudo pacman -S --noconfirm jq git base-devel yay telegram-desktop caffeine-ng fbreader zsh tig ttf-fira-code
 
 # Install zsh and oh-my-zsh
 sudo chsh -s $(which zsh)
@@ -17,7 +17,7 @@ sh ./scripts/apply_gnome_settings.sh
 
 # Install apps
 yay -S --noconfirm dropbox obsidian-appimage visual-studio-code-bin google-chrome
-
+yay -S --noconfirms pamac-snap-plugin pamac-flatpak-plugin
 
 # POST INSTALL CHECKLIST
 
@@ -32,3 +32,7 @@ yay -S --noconfirm dropbox obsidian-appimage visual-studio-code-bin google-chrom
 
 
 # dconf dump / > dconf.txt
+
+
+
+sh ./scripts/vscode.sh

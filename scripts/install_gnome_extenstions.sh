@@ -2,6 +2,7 @@
 
 array=( https://extensions.gnome.org/extension/4099/no-overview/
 https://extensions.gnome.org/extension/1128/hide-activities-button/
+https://extensions.gnome.org/extension/615/appindicator-support/
 https://extensions.gnome.org/extension/307/dash-to-dock/ )
 
 for i in "${array[@]}"

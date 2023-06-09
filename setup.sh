@@ -4,7 +4,7 @@
 sudo pacman -Syu --noconfirm
 
 # Install pacman deps/apps
-sudo pacman -S --noconfirm jq git base-devel yay telegram-desktop caffeine-ng fbreader zsh tig ttf-fira-code
+sudo pacman -S --noconfirm jq git base-devel yay telegram-desktop caffeine-ng fbreader zsh tig ttf-fira-code noto-fonts-emoji
 
 # Install zsh and oh-my-zsh
 sudo chsh -s $(which zsh)
